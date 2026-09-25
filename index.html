@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="BRASA 77 - Hambúrguer artesanal de verdade.">
+
+    <title>BRASA 77 | Hambúrguer Artesanal</title>
+
+    <!-- FONTE -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- ÍCONES -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CABEÇALHO
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="#inicio"
+                class="logo">
+
+                <span>BRASA</span>
+                <strong>77</strong>
+
+            </a>
+
+
+            <button class="menu-button"
+                id="menu-button"
+                aria-label="Abrir menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <nav class="nav"
+                id="nav">
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#cardapio">
+                    Cardápio
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+                <a href="#cardapio"
+                    class="nav-order">
+
+                    Fazer pedido
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="hero"
+            id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <span class="hero-tag">
+                    HAMBÚRGUER ARTESANAL
+                </span>
+
+                <h1>
+                    SABOR QUE
+                    <span>VEM DA BRASA.</span>
+                </h1>
+
+                <p>
+                    Hambúrguer artesanal, ingredientes selecionados
+                    e aquele sabor defumado que você não esquece.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#cardapio"
+                        class="btn btn-primary">
+
+                        <i class="fa-solid fa-burger"></i>
+                        Ver cardápio
+
+                    </a>
+
+                    <a href="#sobre"
+                        class="btn btn-outline">
+
+                        Conheça a BRASA 77
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DESTAQUES
+        ====================================================== -->
+
+        <section class="highlights">
+
+            <div class="container highlights-grid">
+
+                <div class="highlight">
+
+                    <i class="fa-solid fa-fire"></i>
+
+                    <div>
+                        <strong>
+                            Feito na brasa
+                        </strong>
+
+                        <span>
+                            Sabor defumado de verdade
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="highlight">
+
+                    <i class="fa-solid fa-burger"></i>
+
+                    <div>
+                        <strong>
+                            Artesanal
+                        </strong>
+
+                        <span>
+                            Produzido com cuidado
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="highlight">
+
+                    <i class="fa-solid fa-leaf"></i>
+
+                    <div>
+                        <strong>
+                            Ingredientes selecionados
+                        </strong>
+
+                        <span>
+                            Qualidade em cada detalhe
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="highlight">
+
+                    <i class="fa-solid fa-motorcycle"></i>
+
+                    <div>
+                        <strong>
+                            Delivery
+                        </strong>
+
+                        <span>
+                            Receba no conforto de casa
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CARDÁPIO
+        ====================================================== -->
+
+        <section class="section menu-section"
+            id="cardapio">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        NOSSO CARDÁPIO
+                    </span>
+
+                    <h2>
+                        ESCOLHA O SEU
+                        <strong>BRASA</strong>
+                    </h2>
+
+                    <p>
+                        Opções preparadas na hora para deixar
+                        sua experiência ainda mais saborosa.
+                    </p>
+
+                </div>
+
+
+                <div class="category-buttons">
+
+                    <button class="category-btn active"
+                        data-category="todos">
+
+                        Todos
+
+                    </button>
+
+                    <button class="category-btn"
+                        data-category="burgers">
+
+                        Hambúrgueres
+
+                    </button>
+
+                    <button class="category-btn"
+                        data-category="combos">
+
+                        Combos
+
+                    </button>
+
+                    <button class="category-btn"
+                        data-category="acompanhamentos">
+
+                        Acompanhamentos
+
+                    </button>
+
+                    <button class="category-btn"
+                        data-category="bebidas">
+
+                        Bebidas
+
+                    </button>
+
+                </div>
+
+
+                <div class="products-grid">
+
+
+                    <!-- BURGER 1 -->
+
+                    <article class="product-card"
+                        data-category="burgers">
+
+                        <div class="product-image">
+
+                            <img src="img/burguer1.jpg"
+                                alt="Brasa Classic">
+
+                            <span class="product-tag">
+                                Mais pedido
+                            </span>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                HAMBÚRGUER
+                            </span>
+
+                            <h3>
+                                Brasa Classic
+                            </h3>
+
+                            <p>
+                                Pão brioche, hambúrguer artesanal,
+                                queijo cheddar, cebola caramelizada
+                                e molho especial.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 29,90
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Brasa Classic"
+                                    data-price="29.90">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BURGER 2 -->
+
+                    <article class="product-card"
+                        data-category="burgers">
+
+                        <div class="product-image">
+
+                            <img src="img/burguer2.jpg"
+                                alt="Brasa Bacon">
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                HAMBÚRGUER
+                            </span>
+
+                            <h3>
+                                Brasa Bacon
+                            </h3>
+
+                            <p>
+                                Pão brioche, carne artesanal,
+                                cheddar cremoso, bacon crocante
+                                e molho da casa.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 34,90
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Brasa Bacon"
+                                    data-price="34.90">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BURGER 3 -->
+
+                    <article class="product-card"
+                        data-category="burgers">
+
+                        <div class="product-image">
+
+                            <img src="img/burguer3.jpg"
+                                alt="Brasa Duplo">
+
+                            <span class="product-tag">
+                                Especial
+                            </span>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                HAMBÚRGUER
+                            </span>
+
+                            <h3>
+                                Brasa Duplo
+                            </h3>
+
+                            <p>
+                                Dois hambúrgueres artesanais,
+                                cheddar, cebola crispy e molho
+                                especial da BRASA 77.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 39,90
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Brasa Duplo"
+                                    data-price="39.90">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COMBO -->
+
+                    <article class="product-card"
+                        data-category="combos">
+
+                        <div class="product-image">
+
+                            <img src="img/combo.jpg"
+                                alt="Combo Brasa">
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                COMBO
+                            </span>
+
+                            <h3>
+                                Combo Brasa
+                            </h3>
+
+                            <p>
+                                Hambúrguer Brasa Classic,
+                                batata crocante e refrigerante.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 42,90
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Combo Brasa"
+                                    data-price="42.90">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BATATA -->
+
+                    <article class="product-card"
+                        data-category="acompanhamentos">
+
+                        <div class="product-image">
+
+                            <img src="img/batata.jpg"
+                                alt="Batata Brasa">
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ACOMPANHAMENTO
+                            </span>
+
+                            <h3>
+                                Batata Brasa
+                            </h3>
+
+                            <p>
+                                Batata crocante com tempero
+                                especial da casa.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 18,90
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Batata Brasa"
+                                    data-price="18.90">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BEBIDA -->
+
+                    <article class="product-card"
+                        data-category="bebidas">
+
+                        <div class="product-image">
+
+                            <img src="img/bebida.jpg"
+                                alt="Bebida gelada">
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                BEBIDA
+                            </span>
+
+                            <h3>
+                                Refrigerante
+                            </h3>
+
+                            <p>
+                                Bebida gelada para acompanhar
+                                seu pedido.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    R$ 8,00
+                                </strong>
+
+                                <button class="add-cart"
+                                    data-name="Refrigerante"
+                                    data-price="8.00">
+
+                                    <i class="fa-solid fa-plus"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SOBRE
+        ====================================================== -->
+
+        <section class="section about"
+            id="sobre">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <img src="img/sobre.jpg"
+                        alt="Hambúrguer artesanal da BRASA 77">
+
+                    <div class="experience">
+
+                        <strong>
+                            7
+                        </strong>
+
+                        <span>
+                            anos de<br>
+                            sabor
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        SOBRE A BRASA 77
+                    </span>
+
+                    <h2>
+                        MAIS QUE UM
+                        <strong>HAMBÚRGUER.</strong>
+                    </h2>
+
+                    <p>
+                        A BRASA 77 nasceu da paixão por hambúrguer
+                        artesanal e pelo sabor único que só a brasa
+                        consegue proporcionar.
+                    </p>
+
+                    <p>
+                        Cada lanche é preparado na hora, utilizando
+                        ingredientes selecionados e combinações
+                        pensadas para transformar uma simples refeição
+                        em uma experiência.
+                    </p>
+
+                    <div class="about-list">
+
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            Carne artesanal
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            Pão fresquinho
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            Molhos exclusivos
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            Preparado na hora
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PEDIDO
+        ====================================================== -->
+
+        <section class="order-section">
+
+            <div class="container order-content">
+
+                <div>
+
+                    <span>
+                        FICOU COM FOME?
+                    </span>
+
+                    <h2>
+                        SEU BRASA ESTÁ
+                        <strong>ESPERANDO.</strong>
+                    </h2>
+
+                    <p>
+                        Monte seu pedido e receba tudo pelo WhatsApp.
+                    </p>
+
+                </div>
+
+                <a href="#cardapio"
+                    class="btn btn-primary">
+
+                    <i class="fa-solid fa-burger"></i>
+                    Fazer meu pedido
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTATO
+        ====================================================== -->
+
+        <section class="section contact"
+            id="contato">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        FALE CONOSCO
+                    </span>
+
+                    <h2>
+                        VEM PARA A
+                        <strong>BRASA 77</strong>
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <h3>
+                            Onde estamos
+                        </h3>
+
+                        <p>
+                            Rua Exemplo, 123<br>
+                            Joinville - SC
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        <h3>
+                            WhatsApp
+                        </h3>
+
+                        <p>
+                            (47) 99999-9999
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        <h3>
+                            Instagram
+                        </h3>
+
+                        <p>
+                            @brasa77
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <i class="fa-solid fa-clock"></i>
+
+                        <h3>
+                            Funcionamento
+                        </h3>
+
+                        <p>
+                            Terça a domingo<br>
+                            18h às 23h
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         CARRINHO
+    ====================================================== -->
+
+    <aside class="cart-panel"
+        id="cart-panel">
+
+        <div class="cart-header">
+
+            <h2>
+                Seu pedido
+            </h2>
+
+            <button id="close-cart"
+                aria-label="Fechar carrinho">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="cart-items"
+            id="cart-items">
+
+            <p class="empty-cart">
+                Seu carrinho está vazio.
+            </p>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cart-total">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+            <button class="btn btn-primary checkout-button"
+                id="checkout-button">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                Finalizar pedido
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <div class="cart-overlay"
+        id="cart-overlay">
+    </div>
+
+
+    <!-- =====================================================
+         BOTÃO CARRINHO
+    ====================================================== -->
+
+    <button class="cart-button"
+        id="cart-button"
+        aria-label="Abrir carrinho">
+
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        <span id="cart-count">
+            0
+        </span>
+
+    </button>
+
+
+    <!-- =====================================================
+         WHATSAPP
+    ====================================================== -->
+
+    <a href="#cardapio"
+        class="whatsapp-float"
+        aria-label="Fazer pedido">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
